@@ -1,6 +1,6 @@
 /* COMMON */
 body{
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", sans-serif, "Roboto";
 }
 a {
   color: #333333;
@@ -129,9 +129,11 @@ main {
 main .side-bar {
   width: 160px;
   padding-bottom: 100px;
-  margin: 20px 30px 0 20px;
+  /* margin: 20px 30px 0 20px; */
+  padding: 20px 30px 0 20px;
   display: block;
   top: 80px;
+  background-color: greenyellow;
 }
 main aside .top__category {
   height: 160px;
@@ -153,19 +155,70 @@ main aside .sub__panel {
   display: none;
 }
 
+
+main .sections_wrap{
+  background-color: aqua;
+}
+
 /* MAIN VISUAL */
+main .main__visual{
+  background-color: red;
+
+}
+
 main .visual__content .swiper-container {
   display: block;
   position: relative;
   overflow-x: hidden;
 }
 main .visual__content .swiper-container .swiper-wrapper {
-  width: 800px;
+  width: 870px;
   padding: 20px 10px 32px 10px;
 }
 
 main .visual__content .swiper-container .swiper-wrapper img {
-  width: 800px;
+  width: 870px;
+}
+
+/* MAIN SECTION */
+
+
+.main__section .section__content {
+  width: 870px;
+  margin: 0 auto;
+}
+
+.main__section h4 {
+  width: 100%;
+  height: 31px;
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 24px 0;
+  
+}
+.main__section .content__list{
+  display: block;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+
+}
+.main__section .section-item {
+  width: 270px;
+  height: 251px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin: 0 15px;
+}
+.main__section .section-item img{
+  width: 270px;
+  height: 180px;
+}
+.main__section .section-item .text-box {
+  height: 34;
+  padding: 18px 20px;
+  font-size: 13px;
 }
 
 /* MAIN NEW*/
