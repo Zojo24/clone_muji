@@ -5,6 +5,7 @@ body{
 a {
   color: #333333;
   text-decoration: none;
+  display: block;
 }
 
 /* INNER*/
@@ -133,7 +134,6 @@ main .side-bar {
   padding: 20px 30px 0 20px;
   display: block;
   top: 80px;
-  background-color: greenyellow;
 }
 main aside .top__category {
   height: 160px;
@@ -162,8 +162,6 @@ main .sections_wrap{
 
 /* MAIN VISUAL */
 main .main__visual{
-  background-color: red;
-
 }
 
 main .visual__content .swiper-container {
