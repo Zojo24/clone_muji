@@ -18,18 +18,17 @@ new Swiper('.main__visual .swiper-container', {
 
 new Swiper('.main__new .swiper-container', {
   slidesPreVeiw: 4,
-  spaceBetween: 10,
   centerdSlides: true,
   loop: true,
   autoplay: {
-    delay: 5000 
+    delay: 4000 
   },
   pagination: {
     el: '.main__new .swiper-pagination',
     clickable: true
   },
   navigation: {
-    prevEl: '.main__new .swiper-prev',
-    nextEl: '.main__new .swiper-next'
+    prevEl: 'main__new .swiper-prev',
+    nextEl: 'main__new .swiper-next'
   }
 });
