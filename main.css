@@ -28,6 +28,7 @@ footer {
   color: #8c8c8c;
 }
 
+
 /* INNER*/
 .inner {
   display: flex;
@@ -35,6 +36,7 @@ footer {
   margin: auto;
   justify-content: space-around;
 }
+
 
 /* HEADER TOP */
 header .top {
@@ -108,55 +110,62 @@ header .inner__right span {
   color: #333;
 }
 
+
 /* HEADER BOTTOM */
 header .bottom {
   width: 100%;
   border: 1px solid #e1e1e1;
 }
-header .tabs {
+header .tabs,
+header .tabs a {
   height: 61px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .item-new,
-header .item {
+header .tabs .item-new,
+header .tabs .item {
   font-size: 14px;
   font-weight: 700;
   list-style-type: none;
   padding: 0 20px;
 }
-header .item-new {
+header .tabs .item-new {
   position: relative;
 }
-header .item-new .new {
+header .tabs .item-new .new {
   color: #7f0019;
   font-size: 10px;
   display: flex;
   position: absolute;
-  top: -12px;
+  bottom: 38px;
   left: 0;
   right: 0;
   margin: 0 auto;
   justify-content: center;
+  z-index: 5;
 }
-header .item-btn {
+header .tabs .item-btn {
   position: relative;
   font-size: 14px;
   font-weight: 700;
   list-style-type: none;
   padding: 0 20px;
 } 
-header .item-btn .btn-red {
+header .tabs .item-btn .btn-red {
   position: absolute;
   right: 15px;
-  top: -2px;
+  bottom: 38px;
   width: 5px;
   height: 5px;
   background-color: #7f0019;
   border-radius: 100%;
 }
+header .tabs li:hover a {
+  border-bottom: 2px solid #333;
+}
+
 
 /* SIDE BAR */
 main .side-bar {
