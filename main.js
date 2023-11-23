@@ -1,5 +1,4 @@
 //swiper//
-
 new Swiper('.main__visual .swiper', {
   loop: true,
   autoplay: {
@@ -50,10 +49,3 @@ new Swiper('.main__furniture .swiper', {
     prevEl: '.swiper-button-prev',
   }
 });
-
-// const toTopEl = document.querySelector('#to-top');
-// toTopEl.addEventListener('click', function () {
-//   gsap.to(window, .7, {
-//     scrollTo: 0
-//   });
-// });
