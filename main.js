@@ -1,35 +1,55 @@
 //swiper//
-new Swiper('.main__visual .swiper-container', {
-  slidesPreVeiw: 1,
-  centerdSlides: true,
+
+new Swiper('.main__visual .swiper', {
   loop: true,
   autoplay: {
     delay: 4000 
   },
   pagination: {
-    el: '.main__visual .swiper-pagination',
-    clickable: true
+    el: '.swiper-pagination',
+    clickable: true,
   },
   navigation: {
-    prevEl: 'main__visual .swiper-button-prev',
-    nextEl: 'main__visual .swiper-button-next'
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   }
 });
 
-// new Swiper('.main__new .swiper-container', {
-//   slidesPreVeiw: 1,
-//   spaceBetween: 1,
-//   centerdSlides: true,
-//   loop: true,
-//   autoplay: {
-//     delay: 4000 
-//   },
-//   pagination: {
-//     el: '.main__new .swiper-pagination',
-//     clickable: true
-//   },
-//   navigation: {
-//     prevEl: 'main__new .swiper-button-prev',
-//     nextEl: 'main__new .swiper-button-next'
-//   }
-// });
+new Swiper('.main__new .swiper', {
+  slidesPerView: 4,
+  spaceBetween: 10,
+  loop: true,
+  autoplay: {
+    delay: 4000 
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
+
+new Swiper('.main__mdpick .swiper', {
+  slidesPerView: 4,
+  spaceBetween: 10,
+  loop: true,
+  autoplay: {
+    delay: 4000 
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
+
+new Swiper('.main__season .swiper', {
+  slidesPerView: 4,
+  spaceBetween: 10,
+  loop: true,
+  autoplay: {
+    delay: 4000 
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
