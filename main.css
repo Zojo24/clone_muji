@@ -257,31 +257,32 @@ header .tabs li:hover a {
 }
 
 
-/* MAIN SECTION */
-.main__section .content__list{
+/* MAIN SPECIAL */
+.main__special .content__list{
   width: 900px;
   display: block;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.main__section li .section-item {
+.main__special li .section-item {
   width: 270px;
   border: 1px solid #e1e1e1;
   border-radius: 5px;
   margin: 0 10px 20px 10px;
 }
-.main__section .section-item img{
+.main__special .section-item img{
   width: 270px;
   height: 180px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
-.main__section .section-item .text-box {
+.main__special .section-item .text-box {
   height: 34px;
   padding: 18px 20px;
   font-size: 13px;
 }
+
 
 /* MAIN NEW*/
 .main__new .swiper-slide {
@@ -461,32 +462,32 @@ header .tabs li:hover a {
 }
 
 
-/* MAIN BOTTOM */
-.main__bottom {
+/* MAIN MAGAZINE */
+.main__magazine {
   margin-bottom: 100px;
 }
 /* LEFT */
-.main__bottom .bottom__left {
+.main__magazine .magazine__left {
   width: 370px;
   height: 172px;
 }
-.main__bottom .bottom__left .magazine {
+.main__magazine .magazine__left .magazine {
   margin-top: 5px;
 }
-.main__bottom .bottom__left p{
+.main__magazine .magazine__left p{
   color: #333;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 5px;
 }
-.main__bottom .bottom__left span{
+.main__magazine .magazine__left span{
   font-size: 13px;
   color: #8c8c8c;
   display: block;
   margin-top: 3px;
   line-height: 1.2;
 }
-.main__bottom .bottom__left .text_link {
+.main__magazine .magazine__left .text-link {
   font-size: 13px;
   font-weight: 700;
   color: #333c;
@@ -494,11 +495,11 @@ header .tabs li:hover a {
   margin-top: 5px;
 }
 /* RIGHT */
-.main__bottom {
+.main__magazine {
   display: flex;
   justify-content: center;
 }
-.main__bottom .bottom__right {
+.main__magazine .magazine__right {
   width: 500px;
   height: 172px;
   display: flex;
@@ -506,7 +507,7 @@ header .tabs li:hover a {
   flex-wrap: wrap;
   list-style-type: none;
 }
-.main__bottom .bottom__right img {
+.main__magazine .magazine__right img {
   width: 240px;
   height: 76px;
 }
