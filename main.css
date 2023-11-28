@@ -317,6 +317,8 @@ header .tabs li:hover a {
 .main__new .swiper-button-prev,
 .main__new .swiper-button-next {
   visibility: hidden;
+  top: 43%;
+  transform: translateY(-50%);  
 }
 .main__new .swiper-button-prev span,
 .main__new .swiper-button-next span {
@@ -324,11 +326,20 @@ header .tabs li:hover a {
   height: 25px;
   border-radius: 50%;
   background-color: #fff;
+  color: #666;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   visibility: visible;
+  position: absolute;
   display: block;
   justify-content: center;
 }
+.main__new .swiper-button-prev span {
+  left: 10px;
+}
+.main__new .swiper-button-next span {
+  right: 10px;
+}
+
 
 /* MAIN MDPICK*/
 .main__mdpick h4 {
@@ -358,6 +369,8 @@ header .tabs li:hover a {
 .main__mdpick .swiper-button-prev,
 .main__mdpick .swiper-button-next {
   visibility: hidden;
+  top: 43%;
+  transform: translateY(-50%);  
 }
 .main__mdpick .swiper-button-prev span,
 .main__mdpick .swiper-button-next span {
@@ -365,10 +378,18 @@ header .tabs li:hover a {
   height: 25px;
   border-radius: 50%;
   background-color: #fff;
+  color: #666;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   visibility: visible;
+  position: absolute;
   display: block;
   justify-content: center;
+}
+.main__mdpick .swiper-button-prev span {
+  left: 10px;
+}
+.main__mdpick .swiper-button-next span {
+  right: 10px;
 }
 
 
@@ -444,6 +465,8 @@ header .tabs li:hover a {
 .main__season .swiper-button-prev,
 .main__season .swiper-button-next {
   visibility: hidden;
+  top: 38%;
+  transform: translateY(-50%);
 }
 .main__season .swiper-button-prev span,
 .main__season .swiper-button-next span {
@@ -451,10 +474,18 @@ header .tabs li:hover a {
   height: 25px;
   border-radius: 50%;
   background-color: #fff;
+  color: #666;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   visibility: visible;
+  position: absolute;
   display: block;
   justify-content: center;
+}
+.main__season .swiper-button-prev span {
+  left: 10px;
+}
+.main__season .swiper-button-next span {
+  right: 10px;
 }
 
 
@@ -577,6 +608,8 @@ header .tabs li:hover a {
 .main__furniture .swiper-button-prev,
 .main__furniture .swiper-button-next {
   visibility: hidden;
+  top: 35%;
+  transform: translateY(-50%);
 }
 .main__furniture .swiper-button-prev span,
 .main__furniture .swiper-button-next span {
@@ -584,10 +617,18 @@ header .tabs li:hover a {
   height: 25px;
   border-radius: 50%;
   background-color: #fff;
+  color: #666;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   visibility: visible;
+  position: absolute;
   display: block;
   justify-content: center;
+}
+.main__furniture .swiper-button-prev span {
+  left: 10px;
+}
+.main__furniture .swiper-button-next span {
+  right: 10px;
 }
 
 
