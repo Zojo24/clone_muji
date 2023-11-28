@@ -13,16 +13,6 @@ a {
   text-decoration: none;
   display: block;
 }
-h4 {
-  width: 870px;
-  height: 31px;
-  font-size: 26px;
-  font-weight: 700;
-  color: #000000;
-  display: block;
-  margin: 40px 0 30px 10px;
-  padding: 0 15px;
-}
 footer {
   font-size: 13px;
   color: #8c8c8c;
@@ -42,12 +32,12 @@ header .inner {
   margin: auto;
   justify-content: space-around;
 }
-header .inner__left {
+header .inner--left {
   margin-right: 50px;
   justify-content: space;
   align-items: center;
 }
-header .inner__left .logo {
+header .inner--left .logo {
   width: 194px;
   height: 40px;
 }
@@ -58,6 +48,7 @@ header .inner .search {
   border-radius: 4px;
   background-color: #fff;
   display: flex;
+  flex: 1;
   align-items: center;
 }
 header .inner .search input {
@@ -74,19 +65,18 @@ header .inner .search .search-icon {
   display: flex;
   align-items: center;
 }
-header .inner__right{
+header .inner--right{
   font-size: 11px;
   display: flex;
   justify-content: flex-end;
   width: 243px;
 }
-header .inner__right .right-items {
+header .inner--right .right-items {
   display: flex;
 }
 header .right-items .login,
 header .right-items .delivery,
 header .right-items .chart {
-  height: 58px;
   margin-right: 25px;
   flex-direction: column;
   align-items: center;
@@ -95,7 +85,7 @@ header .right-items .chart {
 header .right-items .chart {
   margin-right: 0;
 }
-header .inner__right span {
+header .inner--right span {
   display: block;
   margin-top: 8px;
   color: #333;
@@ -258,6 +248,16 @@ header .tabs li:hover a {
 
 
 /* MAIN SPECIAL */
+.main__special h4 {
+  width: 870px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin: 40px 0 30px 10px;
+  padding: 0 15px;
+}
 .main__special .content__list{
   width: 900px;
   display: block;
@@ -285,6 +285,16 @@ header .tabs li:hover a {
 
 
 /* MAIN NEW*/
+.main__new h4 {
+  width: 870px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin: 40px 0 30px 10px;
+  padding: 0 15px;
+}
 .main__new .swiper-slide {
   width: 195px;
   display: flex;
@@ -320,6 +330,16 @@ header .tabs li:hover a {
 }
 
 /* MAIN MDPICK*/
+.main__mdpick h4 {
+  width: 870px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin: 40px 0 30px 10px;
+  padding: 0 15px;
+}
 .main__mdpick .swiper-slide {
   width: 195px;
   display: flex;
@@ -352,6 +372,16 @@ header .tabs li:hover a {
 
 
 /* MAIN SALE*/
+.main__sale h4 {
+  width: 870px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin: 40px 0 30px 10px;
+  padding: 0 15px;
+}
 .main__sale .content__list{
   display: block;
   display: flex;
@@ -378,6 +408,16 @@ header .tabs li:hover a {
 
 
 /* MAIN SEASON*/
+.main__season h4 {
+  width: 870px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin: 40px 0 30px 10px;
+  padding: 0 15px;
+}
 .main__season .swiper-slide {
   width: 195px;
   display: flex;
@@ -418,6 +458,15 @@ header .tabs li:hover a {
 
 
 /* MAIN NOTICE */
+.main__notice h4 {
+  width: 870px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin: 40px 0 30px 0px;
+}
 .main__notice {
   width: 870px;
   margin: 0 auto;
@@ -499,6 +548,15 @@ header .tabs li:hover a {
 
 
 /* MAIN FURNITURE */
+.main__furniture h4 {
+  width: 870px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin: 40px 0 30px 20px;
+}
 .main__furniture .swiper-slide {
   display: flex;
   justify-content: center;
@@ -506,7 +564,7 @@ header .tabs li:hover a {
   border-radius: 5px;
   margin-bottom: 70px;
 }
-.main__furniture .swiper-wrapper .swiper-slide > img {
+.main__furniture .swiper-wrapper .swiper-slide img {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -614,14 +672,13 @@ footer .content-wrapper {
 }
 /* FOOTER INNER LEFT */
 footer .content__left {
-  width: 515px;
+  width: 80%;
 }
 footer .info {
   height: 97px;
 }
 
 footer .customer-center {
-  width: 515px;
   height: 44px;
   margin-top: 20px;
 }

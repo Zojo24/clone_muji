@@ -1,8 +1,10 @@
 //swiper//
+const SECOND_TO_MS = 1000;
+
 new Swiper('.main__visual .swiper', {
   loop: true,
   autoplay: {
-    delay: 4000 
+    delay: 4*SECOND_TO_MS 
   },
   pagination: {
     el: '.swiper-pagination',
