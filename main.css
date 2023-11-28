@@ -103,7 +103,7 @@ header .inner__right span {
 
 
 /* HEADER BOTTOM */
-header .bottom {
+header .main-menu {
   width: 100%;
   border: 1px solid #e1e1e1;
 }
@@ -159,23 +159,23 @@ header .tabs li:hover a {
 }
 
 
-/* ASIDE */
-aside {
+/* SIDE BAR */
+.side {
   width: 160px;
   padding-bottom: 100px;
   margin: 15px 10px 0 0;
   display: block;
   top: 80px;
 }
-aside .side-box {
+.side .sidebar {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #e1e1e1;
 }
-aside .side-box:last-child {
+.side .container:last-child {
   border-bottom: none;
 }
-aside .side__category{
+.side .category{
   height: 160px;
   height: 22px;
   margin-bottom: 16px;
@@ -183,43 +183,43 @@ aside .side__category{
   font-weight: 700;
   color: #333;
 }
-aside .category__list {
+.side .sub-menu {
   position: relative;
 }
-aside .category__list .side__menu{
+.side .sub-menu .sub-menu__title{
   width: 160px;
   height: 18px;
   margin-bottom: 14px;
   display: block;
   font-size: 13px;
 }
-aside .category__list li {
+.side .sub-menu li {
   font-size: 13px;
 }
-aside .category__list ul {
+.side .sub-menu ul {
   width: 240px;
   padding: 20px;
   border: 1px solid #8c8c8c;
   line-height: 2;
   background-color: #fff;
 }
-aside .category__list .item-name {
+.side .sub-menu .item-name {
   font-size: 14px;
   font-weight: 700;
   color: #333;
   margin-bottom: 10px;
 }
-aside .category__list .menu__sub {
+.side .sub-menu ul {
   display: none;
 }
-aside .category__list:hover .menu__sub {
+.side .sub-menu:hover ul {
   display: block;
   position: absolute;
   left: 160px;
   top: -30px;
   z-index: 2;
 }
-aside .category__list .menu__sub a:hover {
+.side .sub-menu ul a:hover {
   text-decoration: underline;
 }
 
@@ -407,10 +407,10 @@ aside .category__list .menu__sub a:hover {
   font-size: 13px;
   margin-top: 10px;
 }
-.main__season .swiper-wrapper .swiper-slide .text-box .title {
+.main__season .swiper-wrapper .swiper-slide .text-box__title {
   font-weight: 700;
 }
-.main__season .swiper-wrapper .swiper-slide .text-box .info {
+.main__season .swiper-wrapper .swiper-slide .text-box__info {
   margin-top: 10px;
   line-height: 1.2;
 }

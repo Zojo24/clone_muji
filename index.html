@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="UTF-8">
@@ -10,16 +10,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="/main.css">
 
   <!-- SWIPER -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" media="orientation:portrait"/>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script defer src="./main.js"></script>
 </head>
 
 <body>
+  <script defer src="/main.js"></script>
   <!-- HEADER -->
   <header>
     <div class="top">
@@ -53,55 +52,57 @@
         </div>
       </div>
     </div>
-    <div class="bottom">
-      <div class="tabs">
-        <li class="item">
-          <a href="https://www.mujikorea.net/display/displayShop.lecs?displayNo=MJ1A08A02">인기상품</a>
-        </li>
-        <li class="item">
-          <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=83849">주간 특가</a>
-        </li>
-        <li class="item-new">
-          <a href="https://www.mujikorea.net/display/displayShop.lecs?displayNo=MJ1A08A01">주간 신상
-            <div class="new">NEW</div>
-          </a>
-        </li>
-        <li class="item-btn">
-          <a href="https://www.mujikorea.net//displayPlan/listPlanDetail.lecs?spdpNo=88109&displayNo=MJ1A01&influx_channel_no=240481&influx_channel_detail_no=2404811">기분좋은 생활
-            <div class="btn-red"></div>
-          </a>
-        </li>
-        <li class="item">
-          <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=83918">스태프 스냅</a>
-        </li>
-        <li class="item">
-          <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=83919">MUJI MAGAZINE</a>
-        </li>
-        <li class="item">
-          <a href="https://www.mujikorea.net/display/displayShop.lecs?displayNo=MJ1A57A03">아울렛</a>
-        </li>
-      </div>
-    </div>
+    <nav class="main-menu">
+      <ul>
+        <div class="tabs">
+          <li class="item">
+            <a href="https://www.mujikorea.net/display/displayShop.lecs?displayNo=MJ1A08A02">인기상품</a>
+          </li>
+          <li class="item">
+            <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=83849">주간 특가</a>
+          </li>
+          <li class="item-new">
+            <a href="https://www.mujikorea.net/display/displayShop.lecs?displayNo=MJ1A08A01">주간 신상
+              <div class="new">NEW</div>
+            </a>
+          </li>
+          <li class="item-btn">
+            <a href="https://www.mujikorea.net//displayPlan/listPlanDetail.lecs?spdpNo=88109&displayNo=MJ1A01&influx_channel_no=240481&influx_channel_detail_no=2404811">기분좋은 생활
+              <div class="btn-red"></div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=83918">스태프 스냅</a>
+          </li>
+          <li class="item">
+            <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=83919">MUJI MAGAZINE</a>
+          </li>
+          <li class="item">
+            <a href="https://www.mujikorea.net/display/displayShop.lecs?displayNo=MJ1A57A03">아울렛</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
   </header>
 
   <!-- MAIN -->
   <main>
 
-    <!-- ASIDE -->
-    <aside>
-      <div class="side-box">
-        <div class="side__category">의복/신발/패션잡화</div>
+    <!-- SIDE BAR -->
+    <div class="side">
+      <nav class="sidebar">
+        <div class="category">의복/신발/패션잡화</div>
         <ul>
-          <li class="category__list">
-            <a class="side__menu" href="http://www.mujikorea.net/display/displayShop.lecs?storeNo=1&amp;siteNo=13013&amp;displayNo=MJ1C19">MUJI LABO</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="http://www.mujikorea.net/display/displayShop.lecs?storeNo=1&amp;siteNo=13013&amp;displayNo=MJ1C19">MUJI LABO</a>
+            <ul>
               <li class="item-name">MUJI LABO ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A08A01">유니섹스 LABO</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A01">남성복</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A01">남성복</a>
+            <ul>
               <li class="item-name">남성복 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A01A01">남성니트</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A01A02">남성 컷앤소</a></li>
@@ -111,9 +112,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A01A08">남성 MUJI WALKER</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A02">여성복</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A02">여성복</a>
+            <ul>
               <li class="item-name">여성복 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A02A01">여성니트</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A02A02">여성 컷앤소</a></li>
@@ -123,9 +124,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A02A08">여성 MUJI WALKER</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A03">아동복 · 마터니티</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A03">아동복 · 마터니티</a>
+            <ul>
               <li class="item-name">아동복 · 마터니티 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A03A03">베이비 (48개월미만)</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A03A02">키즈 (48개월이상)</a></li>
@@ -133,9 +134,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A03A04">마터니티 · 신생아</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A06">이너웨어</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A06">이너웨어</a>
+            <ul>
               <li class="item-name">이너웨어 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A06A01">남성 이너웨어</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A06A02">남성파자마 - 홈웨어</a></li>
@@ -143,9 +144,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A06A05">여성파자마 - 홈웨어</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A05">가방 · 신발</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A05">가방 · 신발</a>
+            <ul>
               <li class="item-name">가방 · 신발 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A05A01">남성가방 · 벨트</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A05A02">남성화</a></li>
@@ -154,9 +155,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A05A05">여행가방</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A04">액세서리 · 양말 · 우산</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A04">액세서리 · 양말 · 우산</a>
+            <ul>
               <li class="item-name">액세서리 · 양말 · 우산 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A04A01">양말</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A01A04A07">스타킹 · 레깅스</a></li>
@@ -167,13 +168,13 @@
             </ul>
           </li>
         </ul>
-      </div>
-      <div class="side-box">
-        <div class="side__category">생활잡화</div>
+      </nav>
+      <nav class="sidebar">
+        <div class="category">생활잡화</div>
         <ul>
-          <li class="category__list">
-            <a class="side__menu" href="#">패브릭</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">패브릭</a>
+            <ul>
               <li class="item-name">패브릭 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A01A01">이불 · 깔개 패드</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A01A02">베개</a></li>
@@ -188,9 +189,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A01A13">슬리퍼</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="#">가구 · 인테리어</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">가구 · 인테리어</a>
+            <ul>
               <li class="item-name">가구 · 인테리어 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A02A01">침대 · 매트리스</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A02A02">소파 · 리빙 가구</a></li>
@@ -202,9 +203,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A02A06">데코 · 벽걸이 가구</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="#">주방 · 생활용품</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">주방 · 생활용품</a>
+            <ul>
               <li class="item-name">주방 · 생활용품 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A04A01">하우스키핑 용품</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A04A03">욕실 화장실 용품</a></li>
@@ -215,9 +216,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A04A07">Found 하우스키핑</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="#">헬스&뷰티 · 아로마</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">헬스&뷰티 · 아로마</a>
+            <ul>
               <li class="item-name">헬스&뷰티 · 아로마 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A06A01">케어용품</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A06A05">아로마 용품</a></li>
@@ -228,18 +229,18 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A06A10">여행 · 보틀 · 파우치</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="#">화장품</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">화장품</a>
+            <ul>
               <li class="item-name">화장품 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A08A01">스킨케어</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A08A03">클렌징</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A08A02">관련 용품</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="#">전자제품 · 기프트</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">전자제품 · 기프트</a>
+            <ul>
               <li class="item-name">전자제품 · 기프트 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A03A01">가전제품 · 시계</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A03A02">조명기구</a></li>
@@ -247,9 +248,9 @@
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A03A06">가든용품</a></li>
             </ul>
           </li>
-          <li class="category__list">
-            <a class="side__menu" href="#">문구</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">문구</a>
+            <ul>
               <li class="item-name">문구 ></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A05A01">노트</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A07A05A02">필기구</a></li>
@@ -260,13 +261,13 @@
             </ul>
           </li>
         </ul>
-      </div>
-      <div class="side-box">
-        <div class="side__category">식품</div>
+      </nav>
+      <nav class="sidebar">
+        <div class="category">식품</div>
         <ul>
-          <li class="category__list">
-            <a class="side__menu" href="#">과자 · 음료 · 소스</a>
-            <ul class="menu__sub">
+          <li class="sub-menu">
+            <a class="sub-menu__title" href="#">과자 · 음료 · 소스</a>
+            <ul>
               <li class="item-name">과자 · 음료 · 소스 ></a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A05A02A09">과자 · 스낵</a></li>
               <li><a href="https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1A05A02A10">음료</a></li>
@@ -274,8 +275,8 @@
             </ul>
           </li>
         </ul>
-      </div>
-    </aside>
+      </nav>
+    </div>
 
     <!-- SECTIONS WRAPPER -->
     <section class="sections-wrapper">
@@ -623,8 +624,8 @@
               <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=87428&displayNo=MJ1A01">
                 <img src="./Images/main_season1.jpg" alt="추워진 계절의 따스함 | KNITWEAR" />
                 <div class="text-box">
-                  <p class="title">추워진 계절의 따스함 | KNITWEAR</p>
-                  <p class="info">매인 편안하게 입을 수 있도록 얇고 <br> 부드러운 하이게이지 니트와, 건조가 <br> 빠르고 탄력 있는 밀라노 리브 니트</p>
+                  <p class="text-box__title">추워진 계절의 따스함 | KNITWEAR</p>
+                  <p class="text-box__info">매인 편안하게 입을 수 있도록 얇고 <br> 부드러운 하이게이지 니트와, 건조가 <br> 빠르고 탄력 있는 밀라노 리브 니트</p>
                 </div>
               </a>
             </div>
@@ -632,8 +633,8 @@
               <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=62194&displayNo=MJ1A01">
                 <img src="./Images/main_season2.jpg" alt="나만의 취향대로 조합하여 쓰는 필기구" />
                 <div class="text-box">
-                  <p class="title">나만의 취향대로 조합하여 쓰는 필기구</p>
-                  <p class="info">무인양품과 함께 나만의 취향대로 <br> 필기구를 조합하여 사용해 보세요!</p>
+                  <p class="text-box__title">나만의 취향대로 조합하여 쓰는 필기구</p>
+                  <p class="text-box__info">무인양품과 함께 나만의 취향대로 <br> 필기구를 조합하여 사용해 보세요!</p>
                 </div>
               </a>
             </div>
@@ -641,8 +642,8 @@
               <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=69809">
                 <img src="./Images/main_season3.jpg" alt="고물가 생활백서 도시락 챌린지" />
                 <div class="text-box">
-                  <p class="title">고물가 생활백서 도시락 챌린지</p>
-                  <p class="info">런치플레이션엔 직접 싼 도시락으로<br> 든든한 한끼</p>
+                  <p class="text-box__title">고물가 생활백서 도시락 챌린지</p>
+                  <p class="text-box__info">런치플레이션엔 직접 싼 도시락으로<br> 든든한 한끼</p>
                 </div>
               </a>
             </div>
@@ -650,8 +651,8 @@
               <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=55031">
                 <img src="./Images/main_season4.jpg" alt="맛있고 즐거운 밥상, 도가마/도나베" />
                 <div class="text-box">
-                  <p class="title">맛있고 즐거운 밥상, 도가마/도나베</p>
-                  <p class="info">밥짓기부터 굽기, 끓이기까지 다양한<br> 요리가 사용가능하며, 맛있고 즐거운 <br>밥상을 차릴 수 있습니다.</p>
+                  <p class="text-box__title">맛있고 즐거운 밥상, 도가마/도나베</p>
+                  <p class="text-box__info">밥짓기부터 굽기, 끓이기까지 다양한<br> 요리가 사용가능하며, 맛있고 즐거운 <br>밥상을 차릴 수 있습니다.</p>
                 </div>
               </a>
             </div>
@@ -659,8 +660,8 @@
               <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=16853">
                 <img src="./Images/main_season5.jpg" alt="생활환경에 맞춘 행거 시리즈" />
                 <div class="text-box">
-                  <p class="title">생활환경에 맞춘 행거 시리즈</p>
-                  <p class="info">세탁부터 정리정돈까지 One Step!<br> 의류 소재나 크기에 맞게 <br>선택해보세요.</p>
+                  <p class="text-box__title">생활환경에 맞춘 행거 시리즈</p>
+                  <p class="text-box__info">세탁부터 정리정돈까지 One Step!<br> 의류 소재나 크기에 맞게 <br>선택해보세요.</p>
                 </div>
               </a>
             </div>
@@ -668,8 +669,8 @@
               <a href="https://www.mujikorea.net/displayPlan/listPlanDetail.lecs?spdpNo=32868">
                 <img src="./Images/main_season6.jpg" alt="침대 이불 고르는 법" />
                 <div class="text-box">
-                  <p class="title">침대 이불 고르는 법</p>
-                  <p class="info">우리 일생의 1/3을 차지하는 <br>수면시간, 나에게 적합한 수면환경을<br> 조성해보세요.</p>
+                  <p class="text-box__title">침대 이불 고르는 법</p>
+                  <p class="text-box__info">우리 일생의 1/3을 차지하는 <br>수면시간, 나에게 적합한 수면환경을<br> 조성해보세요.</p>
                 </div>
               </a>
             </div>
