@@ -27,6 +27,7 @@ header .top {
   position: relative;
 }
 header .inner {
+  width: 1060px;
   display: flex;
   align-items: center;
   margin: auto;
@@ -42,7 +43,6 @@ header .inner--left .logo {
   height: 40px;
 }
 header .inner .search {
-  width: 570px;
   height: 36px;
   border: 2px solid rgba(112, 112, 112, 0.36);
   border-radius: 4px;
@@ -70,6 +70,7 @@ header .inner--right{
   display: flex;
   justify-content: flex-end;
   width: 243px;
+  
 }
 header .inner--right .right-items {
   display: flex;
@@ -251,7 +252,7 @@ header .tabs li:hover a {
 .main__special h4 {
   width: 870px;
   height: 31px;
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
   display: block;
@@ -288,7 +289,7 @@ header .tabs li:hover a {
 .main__new h4 {
   width: 870px;
   height: 31px;
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
   display: block;
@@ -333,7 +334,7 @@ header .tabs li:hover a {
 .main__mdpick h4 {
   width: 870px;
   height: 31px;
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
   display: block;
@@ -375,7 +376,7 @@ header .tabs li:hover a {
 .main__sale h4 {
   width: 870px;
   height: 31px;
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
   display: block;
@@ -411,7 +412,7 @@ header .tabs li:hover a {
 .main__season h4 {
   width: 870px;
   height: 31px;
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
   display: block;
@@ -461,7 +462,7 @@ header .tabs li:hover a {
 .main__notice h4 {
   width: 870px;
   height: 31px;
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
   display: block;
@@ -551,7 +552,7 @@ header .tabs li:hover a {
 .main__furniture h4 {
   width: 870px;
   height: 31px;
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
   display: block;
