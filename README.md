@@ -4,7 +4,7 @@
 📌[MUJI 주소](https://www.mujikorea.net/display/displayShop.lecs?storeNo=1&siteNo=13013&displayNo=MJ1C98&displayMallNo=MJ1)
 
 
-📌[프로젝트 주소](https://zojo24.github.io/)
+📌[프로젝트 주소](https://clone-muji.vercel.app/)
 
 
 ### 프로젝트 기간: 2023.11.20 ~ 2023.11.23
